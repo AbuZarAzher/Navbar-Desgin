@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #000;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background-color: #000;
+    border-bottom: 0.1px solid rgba(255, 255, 255, 0.486);
+}
+
+.logo img {
+    height: 65px;
+    margin-left: 200px;
+}
+
+
+.nav-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #E50914;
+}
+
+.btns {
+    display: flex;
+    gap: 12px;
+    /* align-items: center; */
+    margin-right: 200px;
+}
+
+.franchise-btn {
+    padding: 15px 24px;
+    border: 1px solid white;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s;
+}
+
+.franchise-btn:hover {
+    background: white;
+    color: black;
+}
+
+.order-btn {
+    padding: 15px 24px;
+    background: #E50914;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.order-btn:hover {
+    background: #B00610;
+}
+
+.arrow {
+    background: white;
+    color: red;
+    border-radius: 50%;
+    padding: 3px 6px;
+    font-size: 14px;
+}
