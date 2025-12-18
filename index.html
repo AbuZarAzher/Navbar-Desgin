@@ -2,32 +2,402 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Navbar</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="icon" href="images/spices.png" type="image/x-icon">
+  <title>Salt n Pepper</title>
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="logo">
-            <img src="images/65b73fb7-2706-4440-87b9-9555fcd0ba80.webp" alt="Salt n Pepper Logo">
+
+  <nav class="navbar">
+    <div class="logo">
+      <img src="images/65b73fb7-2706-4440-87b9-9555fcd0ba80.webp" alt="Logo">
+    </div>
+
+    <div class="nav-wrapper">
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Publications</a></li>
+      </ul>
+
+      <div class="btns">
+        <a class="franchise-btn" href="#">Get a Franchise</a>
+        <a class="order-btn" href="#">Order Online <span class="arrow">➜</span></a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="banner">
+    <img src="https://static.tossdown.com/images/9c25c728-56cb-4518-9db8-32d7247de49d.webp" alt="Main Banner">
+  </section>
+
+  <section class="brand-intro">
+    <h2>Welcome to <span>Salt'n Pepper</span></h2>
+    <h3>Restaurants! Our Brands</h3>
+    <p>Please click our brands below for further information, reservations or to order online!</p>
+  </section>
+
+  <div class="container">
+    <div class="card-box">
+      <div class="card">
+        <img src="images/image1.png" alt="Restaurant">
+      </div>
+      <div class="btn">Order Now</div>
+    </div>
+
+    <div class="card-box">
+      <div class="card">
+        <img src="images/image2.png" alt="Express">
+      </div>
+      <div class="btn">Order Now</div>
+    </div>
+
+    <div class="card-box">
+      <div class="card">
+        <img src="images/image3.png" alt="Village">
+      </div>
+      <div class="btn">Reserve Table</div>
+    </div>
+
+    <div class="card-box">
+      <div class="card">
+        <img src="images/image4.png" alt="Signature">
+      </div>
+      <div class="btn">Order Now</div>
+    </div>
+  </div>
+
+  <section class="franchise-section">
+
+    <h2 class="franchise-title">Salt'n Pepper</h2>
+    <h3 class="franchise-subtitle">Restaurant Franchises</h3>
+    <p class="franchise-text">
+      Each of our franchises is individually managed. For further details, kindly contact them directly.
+    </p>
+
+    <div class="franchise-box">
+      <div class="franchise-info">
+        <h4 class="city">ISLAMABAD</h4>
+        <h2 class="fname">Salt'n Pepper Restaurant</h2>
+        <p>📍 Plot# 55, Blue Area, Islamabad</p>
+        <p>📞 Ph: 051-2604904-6</p>
+        <button class="dir-btn">Get Directions ➜</button>
+      </div>
+      <img src="https://images-beta.tossdown.com/site/7aba8915-02ed-46ee-bd96-1063abe072fa.webp" class="franchise-img">
+    </div>
+
+    <div class="franchise-box">
+      <img src="https://images-beta.tossdown.com/site/11771dbf-36a1-4684-a55e-18af61e0f77c.webp" class="franchise-img">
+      <div class="franchise-info">
+        <h4 class="city">FAISALABAD</h4>
+        <h2 class="fname">Salt'n Pepper Restaurant</h2>
+        <p>📍 4-Kohinoor City, Faisalabad</p>
+        <p>📞 Ph: 041-8711404</p>
+        <button class="dir-btn">Get Directions ➜</button>
+      </div>
+    </div>
+
+    <div class="franchise-box">
+      <div class="franchise-info">
+        <h4 class="city">BAHAWALPUR</h4>
+        <h2 class="fname">Salt'n Pepper Restaurant</h2>
+        <p>📍 D.C Chowk, Opp Commissioner House, Bahawalpur</p>
+        <p>📞 Ph: 062-2740271-2</p>
+        <button class="dir-btn">Get Directions ➜</button>
+      </div>
+      <img src="https://images-beta.tossdown.com/site/b2f78afe-11e4-4af5-8aef-cff9c2908614.webp" class="franchise-img">
+    </div>
+
+  </section>
+  <section class="express-dark-section">
+    <div class="express-dark-grid">
+
+      <div class="express-dark-card">
+        <img src="https://static.tossdown.com/images/0f3ddba0-18a0-450e-af77-188aeb795934.webp" alt="Sargodha">
+        <span class="city-name">SARGODHA</span>
+        <h3>Salt'n Pepper <span>Express</span></h3>
+
+        <p>📍 Opposite Sargodha Arts Council Babar Road</p>
+        <p>📞 Ph: 048-3725500</p>
+
+        <button class="dark-btn">
+          Get Directions <span>➜</span>
+        </button>
+      </div>
+
+      <div class="express-dark-card">
+        <img src="https://static.tossdown.com/images/171bb884-f60a-4d94-a0b9-78204522564e.webp" alt="Jhelum">
+        <span class="city-name">JHELUM</span>
+        <h3>Salt'n Pepper <span>Express</span></h3>
+
+        <p>📍 Opposite Dancing Fountain Gallery 2 Citi Housing Jhelum</p>
+        <p>📞 Ph: 0307-7675555</p>
+
+        <button class="dark-btn">
+          Get Directions <span>➜</span>
+        </button>
+      </div>
+
+      <div class="express-dark-card">
+        <img src="https://static.tossdown.com/images/31b37f0c-5936-4232-a55e-8042c2656526.webp" alt="Faisal Town">
+        <span class="city-name">FAISAL TOWN</span>
+        <h3>Salt'n Pepper <span>Express</span></h3>
+
+        <p>📍 34-C Abul Hassan Isfahani Rd, Faisal Town, Lahore</p>
+        <p>📞 Ph: 042-111-100-678</p>
+
+        <button class="dark-btn">
+          Get Directions <span>➜</span>
+        </button>
+      </div>
+
+      <div class="express-dark-card">
+        <img src="https://static.tossdown.com/images/0f3ddba0-18a0-450e-af77-188aeb795934.webp" alt="Sargodha">
+        <span class="city-name">SARGODHA</span>
+        <h3>Salt'n Pepper <span>Express</span></h3>
+
+        <p>📍 Opposite Sargodha Arts Council Babar Road</p>
+        <p>📞 Ph: 048-3725500</p>
+
+        <button class="dark-btn">
+          Get Directions <span>➜</span>
+        </button>
+      </div>
+
+      <div class="express-dark-card">
+        <img src="https://static.tossdown.com/images/171bb884-f60a-4d94-a0b9-78204522564e.webp" alt="Jhelum">
+        <span class="city-name">JHELUM</span>
+        <h3>Salt'n Pepper <span>Express</span></h3>
+
+        <p>📍 Opposite Dancing Fountain Gallery 2 Citi Housing Jhelum</p>
+        <p>📞 Ph: 0307-7675555</p>
+
+        <button class="dark-btn">
+          Get Directions <span>➜</span>
+        </button>
+      </div>
+
+      <div class="express-dark-card">
+        <img src="https://static.tossdown.com/images/31b37f0c-5936-4232-a55e-8042c2656526.webp" alt="Faisal Town">
+        <span class="city-name">FAISAL TOWN</span>
+        <h3>Salt'n Pepper <span>Express</span></h3>
+
+        <p>📍 34-C Abul Hassan Isfahani Rd, Faisal Town, Lahore</p>
+        <p>📞 Ph: 042-111-100-678</p>
+
+        <button class="dark-btn">
+          Get Directions <span>➜</span>
+        </button>
+      </div>
+      <div class="express-dark-card">
+        <img src="https://static.tossdown.com/images/0f3ddba0-18a0-450e-af77-188aeb795934.webp" alt="Sargodha">
+        <span class="city-name">SARGODHA</span>
+        <h3>Salt'n Pepper <span>Express</span></h3>
+
+        <p>📍 Opposite Sargodha Arts Council Babar Road</p>
+        <p>📞 Ph: 048-3725500</p>
+
+        <button class="dark-btn">
+          Get Directions <span>➜</span>
+        </button>
+      </div>
+
+      <div class="express-dark-card">
+        <img src="https://static.tossdown.com/images/171bb884-f60a-4d94-a0b9-78204522564e.webp" alt="Jhelum">
+        <span class="city-name">JHELUM</span>
+        <h3>Salt'n Pepper <span>Express</span></h3>
+
+        <p>📍 Opposite Dancing Fountain Gallery 2 Citi Housing Jhelum</p>
+        <p>📞 Ph: 0307-7675555</p>
+
+        <button class="dark-btn">
+          Get Directions <span>➜</span>
+        </button>
+      </div>
+
+      <div class="express-dark-card">
+        <img src="https://static.tossdown.com/images/31b37f0c-5936-4232-a55e-8042c2656526.webp" alt="Faisal Town">
+        <span class="city-name">FAISAL TOWN</span>
+        <h3>Salt'n Pepper <span>Express</span></h3>
+
+        <p>📍 34-C Abul Hassan Isfahani Rd, Faisal Town, Lahore</p>
+        <p>📞 Ph: 042-111-100-678</p>
+
+        <button class="dark-btn">
+          Get Directions <span>➜</span>
+        </button>
+      </div>
+      <div class="express-dark-card">
+        <img src="https://static.tossdown.com/images/31b37f0c-5936-4232-a55e-8042c2656526.webp" alt="Faisal Town">
+        <span class="city-name">FAISAL TOWN</span>
+        <h3>Salt'n Pepper <span>Express</span></h3>
+
+        <p>📍 34-C Abul Hassan Isfahani Rd, Faisal Town, Lahore</p>
+        <p>📞 Ph: 042-111-100-678</p>
+
+        <button class="dark-btn">
+          Get Directions <span>➜</span>
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="village-franchise">
+    <div class="village-wrapper">
+
+      <div class="village-img">
+        <img src="https://images-beta.tossdown.com/site/0df39a08-2dca-4998-adda-4ca66b1132cb.webp"
+          alt="Salt n Pepper Village">
+      </div>
+
+      <div class="village-content">
+        <h2>Salt'n Pepper</h2>
+        <h1>Village Franchise</h1>
+
+        <span class="village-city">GUJRANWALA</span>
+
+        <h3>Salt'n Pepper <span>Village</span></h3>
+
+        <p>📍 Adjacent to Rida Marquees / DHA Main Gate, GT Road Gujranwala Cantt</p>
+        <p>📞 Ph: 055-3884500 | 055-3880400</p>
+
+        <button class="village-btn">
+          Get Directions <span>➜</span>
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="opening-soon">
+    <h2>Salt'n Pepper</h2>
+    <h1>Express Franchises <span>(Opening Soon)</span></h1>
+
+    <div class="opening-grid">
+
+      <div class="opening-card">
+        <div class="pin">📍</div>
+        <span class="soon">OPENING SOON</span>
+        <h3>Salt'n Pepper <span>Express</span></h3>
+        <p>Blue World City</p>
+        <p>Rawalpindi</p>
+      </div>
+
+      <div class="opening-card">
+        <div class="pin">📍</div>
+        <span class="soon">OPENING SOON</span>
+        <h3>Salt'n Pepper <span>Express</span></h3>
+        <p>Al-Jalil Garden</p>
+        <p>Sharqpur</p>
+      </div>
+
+      <div class="opening-card">
+        <div class="pin">📍</div>
+        <span class="soon">OPENING SOON</span>
+        <h3>Salt'n Pepper <span>Express</span></h3>
+        <p>Al-Jalil Garden</p>
+        <p>Sadhoke</p>
+      </div>
+
+      <div class="opening-card">
+        <div class="pin">📍</div>
+        <span class="soon">OPENING SOON</span>
+        <h3>Salt'n Pepper <span>Express</span></h3>
+        <p>Al-Jalil Garden</p>
+        <p>Sheikhupura</p>
+      </div>
+
+      <div class="opening-card">
+        <div class="pin">📍</div>
+        <span class="soon">OPENING SOON</span>
+        <h3>Salt'n Pepper <span>Express</span></h3>
+        <p>Okara</p>
+      </div>
+
+      <div class="opening-card">
+        <div class="pin">📍</div>
+        <span class="soon">OPENING SOON</span>
+        <h3>Salt'n Pepper <span>Express</span></h3>
+        <p>Kharian</p>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="main-footer">
+    <div class="footer-wrapper">
+
+      <div class="footer-col about">
+        <img src="images/65b73fb7-2706-4440-87b9-9555fcd0ba80.webp" alt="Salt n Pepper">
+        <p>
+          The Salt’n Pepper Restaurants are an example of gracious dining,
+          outstanding service, extraordinary classic and contemporary cuisine.
+          The restaurants have become the ultimate dining destinations in Lahore.
+          From family occasions to business dinner and moments of the heart,
+          this place is where unforgettable memories are made.
+        </p>
+
+        <div class="footer-links">
+          <a href="#">Terms & conditions</a>
+          <a href="#">Privacy policy</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h3>Site Links</h3>
+        <ul>
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Publications</li>
+          <li>Get a Franchise</li>
+          <li>Feedback</li>
+          <li>Contact us</li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3>Contact Us</h3>
+
+        <h4>Head office Address</h4>
+        <p>Foodconsults (Pvt) Ltd</p>
+        <p>23-Usman Block, New GardenTown, Lahore, Pakistan</p>
+
+        <h4>Head office number</h4>
+        <p>+92 42 358 509 31</p>
+        <p>+92 42 358 509 30</p>
+
+        <h4>Email Address</h4>
+        <p>snpfood@brain.net.pk</p>
+
+        <h4>Free delivery number</h4>
+        <p>+92 42 111 100 678</p>
+        <p>+92 03 111 444 610</p>
+      </div>
+
+      <div class="footer-col follow">
+        <h3>Follow Us</h3>
+
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
         </div>
 
-        <div class="nav-wrapper">
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Publications</a></li>
-            </ul>
 
-            <div class="btns">
-                <a class="franchise-btn" href="#">Get a Franchise</a>
-                <a class="order-btn" href="#">Order Online <span class="arrow">➜</span></a>
-            </div>
+        <img src="https://static.tossdown.com/images/15a204d9-9623-4aea-8c7a-a4419417ee7e.webp" class="store">
+        <img src="https://static.tossdown.com/images/c5c0daad-373c-4dd5-a8e8-6dcbbd142963.webp" class="store">
+      </div>
 
-        </div>
-    </nav>
+    </div>
+  </footer>
+
 
 </body>
 
